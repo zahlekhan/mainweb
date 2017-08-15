@@ -2,7 +2,8 @@
 
 blockquote
 {
-  background: #FF6335;
+  background: brown;
+  
 
   color:white;
   padding: 5px;
@@ -10,6 +11,11 @@ blockquote
   margin-bottom:2px;
 
   
+}
+
+blockquote:hover {
+  background-color: #FF3200;
+    text-decoration:none;
 }
 
 #home { color: white;
@@ -46,9 +52,7 @@ top: 92%;
 left:90%;
 
 }
-strong 
-{font-family: Arial Black;
-}
+
 
 #myBtn {
   display: none;
@@ -72,10 +76,106 @@ strong
 
 a
 {color:white;
-font-family: Times new roman body copy;
+font-size: 15px;
+font-family: arial;
 
 }
 #side
 {background-color:#FDEAA9;
+
+}
+
+#announcements {
+
+
+text-align: center;
+font-size:15px;
+
+}
+.jumbotron {background-color: #fcf8e3;
+border: 0.5px solid #faebcc;
+padding-left: 20px;
+}
+
+#welcome {font-family: Raleway, sans-serif;}
+
+#para {padding: 10px;
+
+}
+#iit {text-align: left;
+}
+
+#contact {text-align: right;
+}
+
+footer { padding-top: 40px;
+  padding-bottom: 40px;
+background-color: brown;
+color: white;
+
+}
+
+#news
+{ 
+padding: 15px;
+background-color:brown;
+text-align: center;
+color: white;
+
+border:2px solid  #FF3200;
+}
+
+#right{text-align: right; }
+
+#heading
+{text-align: center;
+}
+
+.holder { 
+  background-color:white;
+  width:250px;
+  height:170px;
+  overflow:hidden;
+  padding:10px;
+  font-family:Helvetica;
+  
+}
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width:250px;
+  height:160px;
+  overflow: hidden;
+  
+}
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+.holder ul li {
+  padding:10px 0px;
+}
+.holder ul li a {
+  color:darkred;
+  text-decoration:none;
+}
+
+#research
+{border-left: 3px solid grey;
+font-size: 15px;
+color: black;
+padding-left: 10px;
+
+}
+
+#offered
+
+{border-left: 3px solid grey;
+font-size: 25px;
+color: black;
+padding-left: 10px;
 
 }
